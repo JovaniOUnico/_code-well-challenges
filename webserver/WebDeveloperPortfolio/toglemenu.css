@@ -1,0 +1,39 @@
+@media (max-width: 1000px) {
+
+  .menu {
+    flex-wrap: wrap;
+    padding-left: 0px;
+    padding-right: 0px;
+    row-gap: 20px;
+  }
+
+  .aside-container {
+    margin-right: 20px;
+  }
+
+  .logo-container {
+    margin-left: 20px;
+  }
+
+  .menu .toogle-menu {
+    width: 100vw;
+    order: 2;
+  }
+
+  .toogle-menu .links-list-menu {
+    display: block;
+  }
+
+  .toogle-menu .links-list-menu li {
+    padding: 20px;
+    padding-left: 20px;
+  }
+
+  .toogle-menu .links-list-menu li:hover {
+    background-color: #eee;
+  }
+
+  .toogle-menu .links-list-menu li:hover a {
+    color: #222;
+  }
+}

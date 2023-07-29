@@ -1,0 +1,81 @@
+
+@font-face {
+  font-family: "ShareTech";
+  src: url("../StarterFiles/Assets/Fonts/Share_Tech/ShareTech-Regular.ttf");
+}
+
+* {
+  font-family: "ShareTech";
+  font-weight: normal;
+}
+
+.c-header {
+  padding: 38px 18px;
+}
+
+.c-main-image {
+  width: 100%;
+  min-height: 375px;
+  background: url('../StarterFiles/Assets/Hero_ImageMob.jpg');
+  background-position-x: center;
+}
+
+.c-info {
+  margin: 45px 20px 20px 20px;
+}
+
+.c-footer {
+  margin: 20px;
+}
+
+.c-head,
+.c-content {
+  margin: 10px 0px;
+}
+
+.c-title {
+  font-size: 2.6rem;
+  font-weight: bolder;
+}
+
+.c-text {
+  font-weight: lighter;
+  color: #8a8683;
+  line-height: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.c-list {
+  text-decoration: none;
+  list-style: none;
+}
+
+.c-list li {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  color: #8a8683;
+}
+
+.c-btn {
+  box-sizing: border-box;
+  display: flex;
+  width: fit-content;
+  background-color: #000;
+  color: #fff;
+  font-weight: bolder;
+  padding: 25px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.c-fitw {
+  width: 100%;
+}
+
+.c-row-mid {
+  display: flex;
+  justify-content: center;
+}

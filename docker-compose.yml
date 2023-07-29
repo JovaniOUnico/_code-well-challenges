@@ -1,0 +1,20 @@
+php:
+  image: php:7.4-apache
+  container_name: php-code-well
+  ports:
+    - "80:80"
+    - "443:443"
+  volumes:
+    - ./webserver:/var/www/html
+  links:
+    - db-php-code-well
+db-php-code-well:
+  image: mysql:latest
+  container_name: db-php-code-well
+  ports:
+    # não é necessário em produção na verdade é até ruim para segurança
+    - "3306:3306"
+  volumes:
+    - /var/lib/mysql
+  environment:
+    - MYSQL_ROOT_PASSWORD=root
